@@ -3,8 +3,8 @@ print(firstName)
 fullName = "Syed Kumail Haider"
 print(fullName)
 
-score1 = input("Enter the score 1: ")
-score2 = input("Enter the score 2: ")
+score1 = int(input("Enter the score 1: "))
+score2 = int(input("Enter the score 2: "))
 totalString = score1 + score2
 messageString = "Total score is %s "
 
